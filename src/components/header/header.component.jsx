@@ -18,10 +18,8 @@ const Header = ({currentUser}) => (
     cONTACT
     </Link>
    
-    {currentUser ? (
-    <div className= "option" conClick={() => auth.SignOut()}>
-    SING OUT</div>
-    ):(
+    {currentUser ? (<div className= "option" onClick={() => auth.SignOut()}>
+    SING OUT</div>):(
     <Link className="option" to="/signin">
         SING IN
     </Link>)} 
