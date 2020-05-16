@@ -1,12 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import {ReactComponent as Logo} from '../../assets/crown.svg';
-import {auth} from '../../firebase/firebase.utils';
 import { connect } from "react-redux";
-import CarIcon  from "../cart-icon/cart-icon";
+
+import {auth} from '../../firebase/firebase.utils';
+import CartIcon  from "../cart-icon/cart-icon";
 import './header.styles.scss';
 import CartDropDown from '../card_dropdown/cart-dropdown';
-
+import {ReactComponent as Logo} from '../../assets/crown.svg';
 
 const Header = ({currentUser, hidden}) => (
     <div className="header">
@@ -29,7 +29,7 @@ const Header = ({currentUser, hidden}) => (
         SING IN
     </Link>
     )} 
-    <CarIcon/>
+    <CartIcon/>
     </div>
   {  hidden ? null : 
     <CartDropDown/>}
