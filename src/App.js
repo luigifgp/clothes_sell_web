@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import ShopPage from './pages/shop-page/shop.component';
 import Header from './components/header/header.component';
 import SingInAndSignUpPage from './pages/sing-in-sing-up/sign-in sign-up.component';
-import {auth, createUserProfileDocument, singInWithGoogle} from './firebase/firebase.utils';
+import {auth, createUserProfileDocument} from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user.actions';
 
 class App extends React.Component{
