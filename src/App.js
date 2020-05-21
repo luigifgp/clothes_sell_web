@@ -12,7 +12,7 @@ import SignInAndSignUpPage from './pages/sing-in-sing-up/sign-in sign-up.compone
 import {auth, createUserProfileDocument} from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user.actions';
 import { selectCurrentUser } from "./redux/user/user.selector";
-import CheckOutPage from "./pages/chackout/checkout";
+import CheckOutPage from "./pages/checkout/checkout.jsx";
 
 
 class App extends React.Component{
