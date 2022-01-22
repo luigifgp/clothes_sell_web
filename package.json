@@ -44,5 +44,17 @@
   },
   "devDependencies": {
     "sass": "^1.44.0"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luigifgp/clothes_sell_web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luigifgp/clothes_sell_web/issues"
+  },
+  "homepage": ".",
+  "description": ""
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {Switch, Route, Redirect} from 'react-router-dom';
 import { createStructuredSelector } from "reselect";
-
+import './components/custom-button/custom-button.styles.scss'
 import { connect } from 'react-redux';
 
 import  HomePage from './pages/homepage/homepage';
